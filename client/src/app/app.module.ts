@@ -16,6 +16,7 @@ import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component';
 
 import { SharedModule } from './_modules/shared.module';
+import { TestErrosComponent } from './errors/test-erros/test-erros.component';
 
 // import {BrowserAnimationModule} from '@angular/platform-browser/animations';
 @NgModule({
@@ -27,7 +28,8 @@ import { SharedModule } from './_modules/shared.module';
     MemberListComponent,
     MemberDetailComponent,
     ListsComponent,
-    MessagesComponent
+    MessagesComponent,
+    TestErrosComponent
   ],
   imports: [
     BrowserModule,
